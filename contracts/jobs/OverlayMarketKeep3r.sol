@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
+import "@overlay/v1-core/contracts/interfaces/IOverlayFactory.sol";
 import "../interfaces/IKeep3rV1.sol";
-import "../interfaces/IOverlayFactory.sol";
 
 contract OverlayMarketKeep3r {
-    IKeep3rV1 public constant KP3R = IKeep3rV1(0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44);    
+    IKeep3rV1 public constant KP3R = IKeep3rV1(0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44);
     IOverlayFactory public OVLF;
     address public rewardsTo;
 
