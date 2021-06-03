@@ -5,11 +5,11 @@ autofetch_sources: True
 
 dependencies:
   - OpenZeppelin/openzeppelin-contracts@4.0.0
-  - overlay-market/overlay-v1-core@0.1.0
+  - overlay-market/overlay-v1-core@0.1.1
 
 compiler:
   solc:
     version: 0.8.2
     remappings:
       - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.0.0"
-      - "@overlay/v1-core=overlay-market/overlay-v1-core@0.1.0"
+      - "@overlay/v1-core=overlay-market/overlay-v1-core@0.1.1"
